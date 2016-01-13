@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1452702996174
+Build-Jdk: 1.8.0_66
+Built-By: maciek
+Bundle-Description: A revolutionary way to create robust, full-featured 
+ graphical applications in Java and C#, with striking visual effects suc
+ h as zooming, animation and multiple representations.
+Bundle-DocURL: http://code.google.com/p/piccolo2d/
+Bundle-License: http://opensource.org/licenses/bsd-license.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Piccolo2D Examples
+Bundle-SymbolicName: org.piccolo2d.examples
+Bundle-Vendor: Piccolo2D
+Bundle-Version: 3.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.piccolo2d.examples;version="3.1.0";uses:="javax.swin
+ g,org.piccolo2d,org.piccolo2d.event,org.piccolo2d.extras,org.piccolo2d.
+ extras.event,org.piccolo2d.extras.swing,org.piccolo2d.nodes,org.piccolo
+ 2d.util",org.piccolo2d.examples.pswing;version="3.1.0";uses:="javax.swi
+ ng,org.piccolo2d,org.piccolo2d.extras.pswing",org.piccolo2d.examples.ps
+ wing.issues;version="3.1.0";uses:="javax.swing",org.piccolo2d.examples.
+ fisheye;version="3.1.0";uses:="javax.swing,org.piccolo2d",org.piccolo2d
+ .examples.issues;version="3.1.0";uses:="org.piccolo2d,org.piccolo2d.ext
+ ras",org.piccolo2d.tutorial;version="3.1.0";uses:="org.piccolo2d,org.pi
+ ccolo2d.event,org.piccolo2d.extras,org.piccolo2d.nodes"
+Import-Package: javax.swing,javax.swing.border,javax.swing.event,javax.s
+ wing.table,javax.swing.text,org.piccolo2d,org.piccolo2d.activities;vers
+ ion="[3.1,4)",org.piccolo2d.event;version="[3.1,4)",org.piccolo2d.extra
+ s;version="[3.1,4)",org.piccolo2d.extras.activities;version="[3.1,4)",o
+ rg.piccolo2d.extras.event;version="[3.1,4)",org.piccolo2d.extras.handle
+ s;version="[3.1,4)",org.piccolo2d.extras.nodes;version="[3.1,4)",org.pi
+ ccolo2d.extras.pswing;version="[3.1,4)",org.piccolo2d.extras.swing;vers
+ ion="[3.1,4)",org.piccolo2d.extras.util;version="[3.1,4)",org.piccolo2d
+ .nodes;version="[3.1,4)",org.piccolo2d.util;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607

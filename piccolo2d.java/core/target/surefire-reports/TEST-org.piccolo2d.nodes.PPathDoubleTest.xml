@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.piccolo2d.nodes.PPathDoubleTest" time="0.039" tests="67" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/java/jdk1.8.0_66/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/opt-hdd/opt/Downloads/kk-multicopter-multiwii/Piccolo2D/piccolo2d.java"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/opt/java/jdk1.8.0_66/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.2.0-23-generic"/>
+    <property name="user.home" value="/home/maciek"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="maciek"/>
+    <property name="java.class.path" value="/usr/share/maven2/boot/classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/opt/java/jdk1.8.0_66/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher &quot;install&quot;"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="/opt/java/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/opt/java/jdk1.8.0_66/jre/lib/resources.jar:/opt/java/jdk1.8.0_66/jre/lib/rt.jar:/opt/java/jdk1.8.0_66/jre/lib/sunrsasign.jar:/opt/java/jdk1.8.0_66/jre/lib/jsse.jar:/opt/java/jdk1.8.0_66/jre/lib/jce.jar:/opt/java/jdk1.8.0_66/jre/lib/charsets.jar:/opt/java/jdk1.8.0_66/jre/lib/jfr.jar:/opt/java/jdk1.8.0_66/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testShapeConstructor" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testStrokeConstructor" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testShapeStrokeConstructorNullArgument" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.004"/>
+  <testcase name="testShapeConstructorNullArgument" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testPathConstructorNullArgument" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testShapeStrokeConstructor" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testPathConstructor" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testNoArgConstructor" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testPathStrokeConstructorNullArgument" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testPathStrokeConstructor" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateArcFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.003"/>
+  <testcase name="testCreatePolylineFloatArrays" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateRectangleFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testClosePathAlreadyClosed" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testLineToFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testSerialization" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.008"/>
+  <testcase name="testCreateEllipseFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testClosePathFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.006"/>
+  <testcase name="testClone" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.002"/>
+  <testcase name="testAppendPathIterator" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylineFloatArraysDifferentSingle" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testFullIntersects" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylineFloatArraysDifferentSizes" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylinePoint2DFloatArray" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateArcDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.003"/>
+  <testcase name="testCreateCubicCurveFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateLineDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testClosePath" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateRectangleDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testCreateCubicCurveDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testFullIntersectsNullStroke" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testMoveToFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testQuadToFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testCreateQuadCurveDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testCurveToFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.004"/>
+  <testcase name="testCreateQuadCurveFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCurveTo" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateLineFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testFullIntersectsNullPaint" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylinePoint2DFloatArrayEmpty" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylinePoint2DFloatArrayNull" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateEllipseDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testAppendShapeFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testAppendPathIteratorFiresPropertyChangeEvent" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testAppendPathIteratorNullArgument" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylinePoint2DFloatArraySingle" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testLineTo" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testMoveTo" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testIntersectsNullStroke" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateRoundRectangleDouble" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testFullIntersectsNullPaintNullStroke" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testQuadTo" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testAppendShape" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testIntersectsNullPaintNullStroke" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testAppendShapeNullArgument" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreatePolylineFloatArraysEmpty" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testIntersectsNullPaint" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateRoundRectangleFloat" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testIntersects" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testDefaultStroke" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+  <testcase name="testStrokeBoundProperty" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testDefaultPaint" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testStrokePaintBoundProperty" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testCreateShapeNode" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testStrokePaint" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testDefaultStrokePaint" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0"/>
+  <testcase name="testStroke" classname="org.piccolo2d.nodes.PPathDoubleTest" time="0.001"/>
+</testsuite>

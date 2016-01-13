@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.piccolo2d.PNodeTest" time="0.051" tests="140" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/java/jdk1.8.0_66/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/opt-hdd/opt/Downloads/kk-multicopter-multiwii/Piccolo2D/piccolo2d.java"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/opt/java/jdk1.8.0_66/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.2.0-23-generic"/>
+    <property name="user.home" value="/home/maciek"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="maciek"/>
+    <property name="java.class.path" value="/usr/share/maven2/boot/classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/opt/java/jdk1.8.0_66/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher &quot;install&quot;"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="/opt/java/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/opt/java/jdk1.8.0_66/jre/lib/resources.jar:/opt/java/jdk1.8.0_66/jre/lib/rt.jar:/opt/java/jdk1.8.0_66/jre/lib/sunrsasign.jar:/opt/java/jdk1.8.0_66/jre/lib/jsse.jar:/opt/java/jdk1.8.0_66/jre/lib/jce.jar:/opt/java/jdk1.8.0_66/jre/lib/charsets.jar:/opt/java/jdk1.8.0_66/jre/lib/jfr.jar:/opt/java/jdk1.8.0_66/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testLowerToBottom" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToColorHasProperSetup" classname="org.piccolo2d.PNodeTest" time="0.01"/>
+  <testcase name="testIsDescendentOfRootHandlesDescendentsOfRoot" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testGetDoubleAttributeReturnsDefaultWhenProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAddPropertyChangeListener" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCloneDoesNotCopyParent" classname="org.piccolo2d.PNodeTest" time="0.002"/>
+  <testcase name="testLowerToBottomOnly" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testHiddenNodesAreNotPickable" classname="org.piccolo2d.PNodeTest" time="0.005"/>
+  <testcase name="testGetClientPropertiesShouldReturnSameCollectionAlways" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testRemovePropertyChangeListenerForPropertyName" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLowerBelowDoesNothingIfNotSibling" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetClientPropertyKeysEnumerationShouldReturnEnumarationOnNewNode" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLocalToGlobal" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetXModifiesBounds" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetHeightModifiesBounds" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGlobalToLocalWorksUnTransformedNodes" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAncestryMethods" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetUnionOfChildrenBoundsAcceptsNull" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRotateAboutPointDoesNotAffectBounds" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetPropertyChangeListenersStringEmpty" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetGlobalRationTakesParentsIntoAccount" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testResetBoundsDoesSo" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetGlobalRationWorksWhenNoParent" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testClientProperties" classname="org.piccolo2d.PNodeTest" time="0.002"/>
+  <testcase name="testAddChildCanSpecifyAnIndexAndDoesntReplace" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetBooleanAttributeReturnsDefaultWhenProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetClientPropertiesShouldReturnSetEvenIfNonePresent" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testOffsetDoesNotTakeBoundsIntoAccount" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetChildrenIteratorReturnsIteratorEvenWithNoChildren" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCloneCopiesTransforms" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLower" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaise" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetAllNodesDoesntIgnoreFilter" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToTransparencyWithDuration0IsImmediate" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testSetVisibleIsRespectedOnPaint" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testLerp" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testToImageReturnsValidImage" classname="org.piccolo2d.PNodeTest" time="0.003"/>
+  <testcase name="testToString" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetRotationIsNotCummulative" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetDoubleAttributeReturnsValueIfFoundWhenDefaultProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testFullScale" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testGetPropertyChangeListeners" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testToImageScalesNodeAsBigAsCanBe" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testScaleAboutPointWorksAsExpected" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseAboveMovesNodeToAfterSibling" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToBoundsHasProperSetup" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRotateInPlaneLeavesFullBoundsUntouched" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testPropertyChangesCascadeToParent" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRemoveAllChildrenDoesntCrashWhenNoChidlren" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCenterFullBoundsOnPointWorksAsExpected" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLowerBelowMovesNodeToBeforeSibling" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetAttributeReturnsDefaultWhenProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testToImageWithBackgroundColorGivenReturnsValidImage" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testToImageUsesFullBoundsWhenConvertingImage" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAddPropertyChangeListenerForPropertyName" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLocalToParentDoesWorkWithOrphanChildWhenTransformed" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseAbove" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseToTopMovesNodeToBeLastChild" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseChild" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testPaintColourIsRespectedOnPaint" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseToTop" classname="org.piccolo2d.PNodeTest" time="0.005"/>
+  <testcase name="testGetChildrenIteratorReturnsValidIteratorWhenHasChildren" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testReplaceWithSwapsParents" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetChildrenPickableFiresPropertyChange" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetWidthModifiesBounds" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRemoveChildrenWorks" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseToTopOnly" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRotateAboutPointVersion1AffectsTransformAsItShould" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testParentToLocalModifiesGivenPoint" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetOccludedPersistes" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRotatingChangesRotation" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetYModifiesBounds" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testfullPickReturnsFalseWhenNotOverlappingWithChildNode" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRecursiveLayout" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetGlobalScaleTakesParentsScaleIntoAccount" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAddChildHandleDuplicates" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetAllNodesUnrollsTheNodeGraph" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateTransformToBoundsHasProperSetup" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseOnly" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRemoveNonexistantListener" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetAttributeReturnsValueIfFoundWhenDefaultProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLowerOnly" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testSetTransparency1MeansInvisible" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testTransformByIsCummulative" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCenterBaseBoundsOnPoint" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToRelativePositionResultsInProperTransform" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testReparent" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLocalToParentDoesNothingWithOrphanChildWhenNotTransformed" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testFindIntersectingNodes" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testToImageWillAcceptBackgroundPaint" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testToImageResultsInDesiredSizeImage" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetGlobalRationTakesParentsIntoAccount" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetInverseTransformThrowsExceptionWhenTransformIsNotInvertible" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testLowerBelow" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLowerChild" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testIsDescendentOfRootHandlesOrphans" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetPropertyChangeListenersStringNull" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRotateAboutPointVersion2AffectsTransformAsItShould" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testLocalToParentModifiesGivenPoint" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetInverseTransformWorks" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCloneDoesADeepCopy" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testStartEndResizeBoundsCanBeCalledWithoutResizes" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetClientPropertyKeysEnumerationShouldReturnCorrectEnumWhenPropertiesExist" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseAboveDoesNothingIfNotSibling" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetPickableShouldDefaultToTrue" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLowerToBottomMovesNodeToBeFirstChild" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testAnimateTransformToBoundsWithDuration0IsImmediate" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCloneDoesNotCopyEventListeners" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testGetGlobalFullBoundsIsSameWhenNoTransforms" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testParentToLocalTransformsOrphanChildWhenTransformed" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetPropertyChangeListenersEmpty" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetAttributeReturnsNullWhenMissing" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testToImageScalesAccordingToExactFitStrategy" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testCenterBoundsOnPointWorksAsExpected" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testChildrenShouldBePickableByDefault" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testfullPickReturnsTrueWhenOverlapsWithChildNode" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRaiseChildToTop" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testAddChildrenAddsAllChildren" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToPositionScaleRotationHasProperSetup" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testToImageScalesAccordingToAspectCoverStrategy" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testGetIntegerAttributeReturnsDefaultWhenProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCloneClonesChildrenAswell" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testGetAttributeReturnsValueWhenPresent" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToBoundsWithDuration0IsImmediate" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testSetPickableFiresPropertyChange" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetPropertyChangeListenersString" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToColorWithDuration0IsImmediate" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testByDefaultNodesShouldNotPickThemselvesBeforeTheirChildren" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAddChildWithIndexMovesChildAround" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testGetIntegerAttributeReturnsValueIfFoundWhenDefaultProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAddActivityAddsActivityToScheduler" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testGetBooleanAttributeReturnsValueIfFoundWhenDefaultProvided" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToTransparencyHasProperSetup" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testAnimateToPositionScaleRotationWithDuration0IsImmediate" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testLowerChildToBottom" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testRemoveFromParentDoesSo" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testChildBoundsStayVolatile" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testRemoveEventListener" classname="org.piccolo2d.PNodeTest" time="0"/>
+  <testcase name="testCloneCopiesAllProperties" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+  <testcase name="testRemovePropertyChangeListener" classname="org.piccolo2d.PNodeTest" time="0.001"/>
+</testsuite>
